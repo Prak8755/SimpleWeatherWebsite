@@ -1,1 +1,1 @@
-# abch
+# Simple Weather website using JS
