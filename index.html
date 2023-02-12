@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body style="background:greenyellow;">
+    
+    <div class="main">
+     <center>  <h4 class="heading">Welcome to Weather App Generator</h4>
+        <form  action="" class="SearchData" onsubmit="getData(event)">
+            <input type="text" id="inputbox" placeholder="Search the city">
+            <button>Search</button>
+        </form></center> 
+
+        <section class="middle">
+      <div>
+        <P>Country Name</P>
+      <p id="CountryName">_</p>
+    </div>
+
+       <div>
+        <P>State  Name</P>
+       <p id="StateName">_</p>
+    </div>
+
+     <div>
+        <P>City Name</P>
+        <p id="cityName">_</p>
+    </div>
+        </section>
+
+        <section class="middle">
+            <div>
+              <P>Humidity</P>
+            <p id="humidity">_</p>
+          </div>
+      
+             <div>
+              <P>Wind speed</P>
+             <p> <span id="windSpeed">_</span> KPH</p>
+          </div>
+      
+           <div>
+              <P>Temperature</P>
+              <p><span id="temperature">_</span> C  </p>
+          </div>
+          <div>
+            <img src="" alt="" id="icon">
+            <P>Weather status</P>
+            <p id="weatherStatus">_</p>
+        </div>
+              </section>
+
+           
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

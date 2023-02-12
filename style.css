@@ -1,0 +1,31 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+}
+
+.main{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    box-shadow: 3px 5px 15px;
+    background: whitesmoke;
+    
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 30px;
+    
+}
+
